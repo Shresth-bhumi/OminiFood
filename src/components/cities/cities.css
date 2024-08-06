@@ -1,0 +1,32 @@
+.city-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.city-details {
+  margin: 2rem 0;
+}
+
+.city-feature {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.city-name {
+  margin-bottom: 2rem;
+}
+
+.twitter-link:link,
+.twitter-link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: 0.2s;
+}
+
+.twitter-link:hover,
+.twitter-link:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}

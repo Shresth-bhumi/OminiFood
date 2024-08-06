@@ -1,0 +1,89 @@
+.nav {
+  height: 120px;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #fff;
+  height: 70px;
+  width: 100vw;
+}
+
+.logo-scrolled {
+  height: 60px;
+  margin-top: 0;
+}
+
+.navbar-toggler-icon {
+  font-size: 24px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navigation-link {
+  color: #fff;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .logo {
+    height: 60px;
+  }
+  .navigation-link {
+    padding: 0 1rem;
+  }
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  .nav-scroll {
+    background-color: #fff;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navigation-link{
+    margin-bottom: 1rem;
+  }
+  .navbar-toggler {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+  .navigation-link {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+  }
+  .logo {
+    height: 100px;
+    margin-top: 40px;
+  }
+  .scrolled {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navigation-link:link,
+  .navigation-link:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px;
+  }
+  .navigation-link:hover,
+  .navigation-link:active {
+    border-bottom: 2px solid #e67e22;
+  }
+}

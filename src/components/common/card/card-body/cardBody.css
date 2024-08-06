@@ -1,0 +1,33 @@
+.signup-btn {
+  border-radius: 25px;
+  color: #e67e22;
+  background-color: #fff;
+  border: 1px solid #e67e22;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.signup-btn:active,
+.signup-btn:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.details-container {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding-left: 0;
+}
+
+.check-mark {
+  width: 30px;
+}
+
+.detail-list {
+  list-style: none;
+}
+
+.list-item {
+  font-size: 1.6rem;
+}

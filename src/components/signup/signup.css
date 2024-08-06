@@ -1,0 +1,19 @@
+.signup-section {
+  background-color: #f4f4f4;
+}
+
+.signup-container {
+  margin: 0 2.5%;
+}
+
+@media only screen and (min-width: 320px) {
+  .signup-section {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .signup-section {
+    padding: 4rem;
+  }
+}

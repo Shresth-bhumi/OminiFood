@@ -1,0 +1,53 @@
+.card-heading {
+  border-radius: 25px;
+}
+
+.pricing {
+  color: #e67e22;
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.card-title {
+  margin-top: 2rem;
+}
+
+.pricing span {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.price-caption {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 320px) {
+  .pricing {
+    font-size: 3.6rem;
+  }
+
+  .pricing span {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .pricing {
+    font-size: 4rem;
+  }
+
+  .pricing span {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pricing {
+    font-size: 4rem;
+  }
+
+  .pricing span {
+    font-size: 2.2rem;
+  }
+}

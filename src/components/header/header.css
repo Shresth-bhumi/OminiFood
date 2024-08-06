@@ -1,0 +1,26 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../img/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+@media only screen and (min-width: 320px) {
+  header {
+    height: 110vh;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  header {
+    height: 100vh;
+  }
+}
+
+

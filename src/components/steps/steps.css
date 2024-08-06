@@ -1,0 +1,181 @@
+.steps-section {
+  background-color: #f4f4f4;
+}
+
+.steps-container {
+  margin: 0;
+  margin-top: 4rem;
+}
+
+.app-col,
+.steps-col {
+  height: auto;
+}
+
+.app-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-screen {
+  margin-bottom: 10px;
+}
+
+.steps-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-box {
+  display: flex;
+  width: 80%;
+}
+
+.step-number {
+  color: #e67e22;
+  font-size: 3rem;
+  height: 54px;
+  width: 54px;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.steps {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.app-btn {
+  border: none;
+  background-color: inherit;
+}
+
+.app-btn img {
+  height: 4rem;
+  width: 13rem;
+  margin: 0 1rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .app-col {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .app-links {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .app-screen {
+    max-width: 45%;
+  }
+
+  .steps-box {
+    width: 100%;
+  }
+
+  .step-number {
+    padding: 5px 15px;
+    font-size: 2.5rem;
+    margin-right: 12px;
+  }
+
+  .app-btn {
+    margin-bottom: 15px;
+  }
+
+  .steps {
+    font-size: 1.6rem;
+  }
+
+  .steps-section {
+    padding: 2rem;
+  }
+  .steps-box {
+    margin: 5px 0;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .app-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .steps-box {
+    margin: 10px 0;
+  }
+  .step-number {
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .app-col {
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+  .steps-col {
+    justify-content: space-evenly;
+  }
+  .steps-box {
+    margin: 0;
+  }
+  .steps {
+    font-size: 1.8rem;
+  }
+  .steps-section {
+    padding: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .app-screen {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .steps-box {
+    width: 80%;
+  }
+  .app-links {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .step-number {
+    font-size: 2.8rem;
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .step-number {
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .step-number {
+    width: 75px;
+    height: 70px;
+    padding-bottom: 75px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .step-number {
+    height: 85px;
+  }
+}

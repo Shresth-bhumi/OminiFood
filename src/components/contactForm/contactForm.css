@@ -1,0 +1,38 @@
+.contact-section {
+    font-size: 1.8rem;
+}
+
+.form-text-area {
+    font-size: 1.8rem;
+}
+
+.form-font {
+    font-size: 1.8rem;
+}
+
+.custom-checkbox label {
+    margin-left: 1.5rem;
+    position: unset;
+} 
+
+.custom-checkbox label::before, 
+.custom-checkbox label::after 
+{
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+    .contact-section {
+        margin: 0 5%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .contact-section {
+        margin: 0 10%;
+    }
+}
+
+
